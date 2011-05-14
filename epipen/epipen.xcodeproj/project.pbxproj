@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8213E808137F0202007A5544 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8213E807137F0202007A5544 /* UIKit.framework */; };
+		8213E80A137F0202007A5544 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8213E809137F0202007A5544 /* Foundation.framework */; };
+		8213E80C137F0202007A5544 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8213E80B137F0202007A5544 /* CoreGraphics.framework */; };
+		8213E80E137F0202007A5544 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8213E80D137F0202007A5544 /* QuartzCore.framework */; };
+		8213E810137F0202007A5544 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8213E80F137F0202007A5544 /* OpenGLES.framework */; };
+		8213E816137F0202007A5544 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8213E814137F0202007A5544 /* InfoPlist.strings */; };
+		8213E819137F0202007A5544 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8213E818137F0202007A5544 /* main.m */; };
+		8213E81C137F0202007A5544 /* epipenAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8213E81B137F0202007A5544 /* epipenAppDelegate.m */; };
+		8213E81F137F0202007A5544 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8213E81D137F0202007A5544 /* MainWindow.xib */; };
+		8213E821137F0202007A5544 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 8213E820137F0202007A5544 /* Shader.fsh */; };
+		8213E823137F0202007A5544 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 8213E822137F0202007A5544 /* Shader.vsh */; };
+		8213E826137F0202007A5544 /* EAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8213E825137F0202007A5544 /* EAGLView.m */; };
+		8213E829137F0202007A5544 /* epipenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8213E828137F0202007A5544 /* epipenViewController.m */; };
+		8213E82C137F0202007A5544 /* epipenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8213E82A137F0202007A5544 /* epipenViewController.xib */; };
+		8213E833137F0202007A5544 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8213E807137F0202007A5544 /* UIKit.framework */; };
+		8213E834137F0202007A5544 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8213E809137F0202007A5544 /* Foundation.framework */; };
+		8213E835137F0202007A5544 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8213E80B137F0202007A5544 /* CoreGraphics.framework */; };
+		8213E83D137F0202007A5544 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8213E83B137F0202007A5544 /* InfoPlist.strings */; };
+		8213E840137F0202007A5544 /* epipenTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 8213E83F137F0202007A5544 /* epipenTests.h */; };
+		8213E842137F0202007A5544 /* epipenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8213E841137F0202007A5544 /* epipenTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8213E836137F0202007A5544 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8213E7FA137F0201007A5544 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8213E802137F0201007A5544;
+			remoteInfo = epipen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8213E803137F0202007A5544 /* epipen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = epipen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8213E807137F0202007A5544 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8213E809137F0202007A5544 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8213E80B137F0202007A5544 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8213E80D137F0202007A5544 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8213E80F137F0202007A5544 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		8213E813137F0202007A5544 /* epipen-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "epipen-Info.plist"; sourceTree = "<group>"; };
+		8213E815137F0202007A5544 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8213E817137F0202007A5544 /* epipen-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "epipen-Prefix.pch"; sourceTree = "<group>"; };
+		8213E818137F0202007A5544 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8213E81A137F0202007A5544 /* epipenAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = epipenAppDelegate.h; sourceTree = "<group>"; };
+		8213E81B137F0202007A5544 /* epipenAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = epipenAppDelegate.m; sourceTree = "<group>"; };
+		8213E81E137F0202007A5544 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		8213E820137F0202007A5544 /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
+		8213E822137F0202007A5544 /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
+		8213E824137F0202007A5544 /* EAGLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EAGLView.h; sourceTree = "<group>"; };
+		8213E825137F0202007A5544 /* EAGLView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EAGLView.m; sourceTree = "<group>"; };
+		8213E827137F0202007A5544 /* epipenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = epipenViewController.h; sourceTree = "<group>"; };
+		8213E828137F0202007A5544 /* epipenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = epipenViewController.m; sourceTree = "<group>"; };
+		8213E82B137F0202007A5544 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/epipenViewController.xib; sourceTree = "<group>"; };
+		8213E832137F0202007A5544 /* epipenTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = epipenTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8213E83A137F0202007A5544 /* epipenTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "epipenTests-Info.plist"; sourceTree = "<group>"; };
+		8213E83C137F0202007A5544 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8213E83E137F0202007A5544 /* epipenTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "epipenTests-Prefix.pch"; sourceTree = "<group>"; };
+		8213E83F137F0202007A5544 /* epipenTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = epipenTests.h; sourceTree = "<group>"; };
+		8213E841137F0202007A5544 /* epipenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = epipenTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8213E800137F0201007A5544 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8213E808137F0202007A5544 /* UIKit.framework in Frameworks */,
+				8213E80A137F0202007A5544 /* Foundation.framework in Frameworks */,
+				8213E80C137F0202007A5544 /* CoreGraphics.framework in Frameworks */,
+				8213E80E137F0202007A5544 /* QuartzCore.framework in Frameworks */,
+				8213E810137F0202007A5544 /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8213E82E137F0202007A5544 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8213E833137F0202007A5544 /* UIKit.framework in Frameworks */,
+				8213E834137F0202007A5544 /* Foundation.framework in Frameworks */,
+				8213E835137F0202007A5544 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8213E7F8137F0201007A5544 = {
+			isa = PBXGroup;
+			children = (
+				8213E811137F0202007A5544 /* epipen */,
+				8213E838137F0202007A5544 /* epipenTests */,
+				8213E806137F0202007A5544 /* Frameworks */,
+				8213E804137F0202007A5544 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8213E804137F0202007A5544 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8213E803137F0202007A5544 /* epipen.app */,
+				8213E832137F0202007A5544 /* epipenTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8213E806137F0202007A5544 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8213E807137F0202007A5544 /* UIKit.framework */,
+				8213E809137F0202007A5544 /* Foundation.framework */,
+				8213E80B137F0202007A5544 /* CoreGraphics.framework */,
+				8213E80D137F0202007A5544 /* QuartzCore.framework */,
+				8213E80F137F0202007A5544 /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8213E811137F0202007A5544 /* epipen */ = {
+			isa = PBXGroup;
+			children = (
+				8213E81A137F0202007A5544 /* epipenAppDelegate.h */,
+				8213E81B137F0202007A5544 /* epipenAppDelegate.m */,
+				8213E81D137F0202007A5544 /* MainWindow.xib */,
+				8213E820137F0202007A5544 /* Shader.fsh */,
+				8213E822137F0202007A5544 /* Shader.vsh */,
+				8213E824137F0202007A5544 /* EAGLView.h */,
+				8213E825137F0202007A5544 /* EAGLView.m */,
+				8213E827137F0202007A5544 /* epipenViewController.h */,
+				8213E828137F0202007A5544 /* epipenViewController.m */,
+				8213E82A137F0202007A5544 /* epipenViewController.xib */,
+				8213E812137F0202007A5544 /* Supporting Files */,
+			);
+			path = epipen;
+			sourceTree = "<group>";
+		};
+		8213E812137F0202007A5544 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8213E813137F0202007A5544 /* epipen-Info.plist */,
+				8213E814137F0202007A5544 /* InfoPlist.strings */,
+				8213E817137F0202007A5544 /* epipen-Prefix.pch */,
+				8213E818137F0202007A5544 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8213E838137F0202007A5544 /* epipenTests */ = {
+			isa = PBXGroup;
+			children = (
+				8213E83F137F0202007A5544 /* epipenTests.h */,
+				8213E841137F0202007A5544 /* epipenTests.m */,
+				8213E839137F0202007A5544 /* Supporting Files */,
+			);
+			path = epipenTests;
+			sourceTree = "<group>";
+		};
+		8213E839137F0202007A5544 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8213E83A137F0202007A5544 /* epipenTests-Info.plist */,
+				8213E83B137F0202007A5544 /* InfoPlist.strings */,
+				8213E83E137F0202007A5544 /* epipenTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8213E802137F0201007A5544 /* epipen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8213E845137F0202007A5544 /* Build configuration list for PBXNativeTarget "epipen" */;
+			buildPhases = (
+				8213E7FF137F0201007A5544 /* Sources */,
+				8213E800137F0201007A5544 /* Frameworks */,
+				8213E801137F0201007A5544 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = epipen;
+			productName = epipen;
+			productReference = 8213E803137F0202007A5544 /* epipen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8213E831137F0202007A5544 /* epipenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8213E848137F0202007A5544 /* Build configuration list for PBXNativeTarget "epipenTests" */;
+			buildPhases = (
+				8213E82D137F0202007A5544 /* Sources */,
+				8213E82E137F0202007A5544 /* Frameworks */,
+				8213E82F137F0202007A5544 /* Resources */,
+				8213E830137F0202007A5544 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8213E837137F0202007A5544 /* PBXTargetDependency */,
+			);
+			name = epipenTests;
+			productName = epipenTests;
+			productReference = 8213E832137F0202007A5544 /* epipenTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8213E7FA137F0201007A5544 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = IMT;
+			};
+			buildConfigurationList = 8213E7FD137F0201007A5544 /* Build configuration list for PBXProject "epipen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8213E7F8137F0201007A5544;
+			productRefGroup = 8213E804137F0202007A5544 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8213E802137F0201007A5544 /* epipen */,
+				8213E831137F0202007A5544 /* epipenTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8213E801137F0201007A5544 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8213E816137F0202007A5544 /* InfoPlist.strings in Resources */,
+				8213E81F137F0202007A5544 /* MainWindow.xib in Resources */,
+				8213E821137F0202007A5544 /* Shader.fsh in Resources */,
+				8213E823137F0202007A5544 /* Shader.vsh in Resources */,
+				8213E82C137F0202007A5544 /* epipenViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8213E82F137F0202007A5544 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8213E83D137F0202007A5544 /* InfoPlist.strings in Resources */,
+				8213E840137F0202007A5544 /* epipenTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8213E830137F0202007A5544 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8213E7FF137F0201007A5544 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8213E819137F0202007A5544 /* main.m in Sources */,
+				8213E81C137F0202007A5544 /* epipenAppDelegate.m in Sources */,
+				8213E826137F0202007A5544 /* EAGLView.m in Sources */,
+				8213E829137F0202007A5544 /* epipenViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8213E82D137F0202007A5544 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8213E842137F0202007A5544 /* epipenTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8213E837137F0202007A5544 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8213E802137F0201007A5544 /* epipen */;
+			targetProxy = 8213E836137F0202007A5544 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8213E814137F0202007A5544 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8213E815137F0202007A5544 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8213E81D137F0202007A5544 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8213E81E137F0202007A5544 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		8213E82A137F0202007A5544 /* epipenViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8213E82B137F0202007A5544 /* en */,
+			);
+			name = epipenViewController.xib;
+			sourceTree = "<group>";
+		};
+		8213E83B137F0202007A5544 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8213E83C137F0202007A5544 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8213E843137F0202007A5544 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8213E844137F0202007A5544 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		8213E846137F0202007A5544 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "epipen/epipen-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "epipen/epipen-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8213E847137F0202007A5544 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "epipen/epipen-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "epipen/epipen-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8213E849137F0202007A5544 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/epipen.app/epipen";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "epipenTests/epipenTests-Prefix.pch";
+				INFOPLIST_FILE = "epipenTests/epipenTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8213E84A137F0202007A5544 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/epipen.app/epipen";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "epipenTests/epipenTests-Prefix.pch";
+				INFOPLIST_FILE = "epipenTests/epipenTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8213E7FD137F0201007A5544 /* Build configuration list for PBXProject "epipen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8213E843137F0202007A5544 /* Debug */,
+				8213E844137F0202007A5544 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8213E845137F0202007A5544 /* Build configuration list for PBXNativeTarget "epipen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8213E846137F0202007A5544 /* Debug */,
+				8213E847137F0202007A5544 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8213E848137F0202007A5544 /* Build configuration list for PBXNativeTarget "epipenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8213E849137F0202007A5544 /* Debug */,
+				8213E84A137F0202007A5544 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8213E7FA137F0201007A5544 /* Project object */;
+}
